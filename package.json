@@ -7,7 +7,8 @@
     "build": "tsc",
     "start": "echo \"Not implemented\" && exit 1",
     "start:prod": "ts-node ./src/index.ts",
-    "test:notes-api": "jest --config ./jest-e2e.json"
+    "test:notes-api": "jest --config ./jest-e2e.json",
+    "test:custom-notes-api": "jest --config ./jest-mytest.json"
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
