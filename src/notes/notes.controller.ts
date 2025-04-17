@@ -1,7 +1,5 @@
 import {Body, Controller, Delete, Get, Param, Post, Put} from "@nestjs/common";
-import INoteListDto from "./dto/inotes.list.dto";
 import {NotesService} from "./notes.service";
-import INoteDto from "./dto/inotes.dto";
 import ICreateNoteDto from "./dto/icreate.note.dto";
 import IUpdateNoteDto from "./dto/iupdate.note.dto";
 
